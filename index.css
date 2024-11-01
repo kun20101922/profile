@@ -1,0 +1,67 @@
+@import url("custom-body/body.css");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+.content-center {
+  width: 360px;
+  height: 430px;
+  background: rgba(234, 234, 234, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(234, 234, 234, 0.25);
+  border: none;
+  border-radius: 5%;
+  border: 1px solid rgba(202, 197, 210, 0.175);
+  margin: 100px auto;
+
+  h1 {
+    font-style: normal;
+    font-family: "Playwrite GB S", serif;
+    font-optical-sizing: auto;
+    font-size: 1.4em;
+    position: relative;
+    margin-left: 20px;
+    top: 30px;
+  }
+
+  ul {
+    display: block;
+    list-style: none;
+    margin: 15% auto;
+    justify-content: center;
+    align-items: center;
+
+    li,
+    a {
+      font-size: 1em;
+      font-family: none;
+      font-style: normal;
+      width: 100%;
+      height: 5%;
+      padding: 1em;
+    }
+
+    li {
+      justify-content: center;
+      align-items: center;
+    }
+
+    a {
+      font-size: 1.5em;
+      font-family: "Playwrite GB S", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      text-decoration: none;
+    }
+
+    i {
+      font-size: 1.4em;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: 300;
+      text-align: center;
+      position: relative;
+      top: 3px;
+    }
+  }
+}
